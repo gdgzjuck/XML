@@ -34,7 +34,7 @@ public class MainActivity extends Activity {
 		tv_play.setText(sb.toString());
 		
 		/*************这是演示生成一个XML文件*******************/
-/*		List<Person> personsl =  new ArrayList<Person>();
+		List<Person> personsl =  new ArrayList<Person>();
 		Person person1 = new Person(21,"张三",18);
 		Person person2 = new Person(13,"李四",19);
 		Person person3 = new Person(43,"王五",20);
@@ -43,7 +43,7 @@ public class MainActivity extends Activity {
 		personsl.add(person2);
 		personsl.add(person3);
 		personsl.add(person4);
-		service.savePersonToXml(personsl);*/
+		service.savePersonToXml(personsl);
 		
 	}
 
